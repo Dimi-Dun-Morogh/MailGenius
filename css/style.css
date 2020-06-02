@@ -1,6 +1,17 @@
 * {
   box-sizing: border-box;
 }
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+
+}
 
 body {
   font: 400 14px/1 'PT Sans', sans-serif;
@@ -19,7 +30,23 @@ a {
 .align-items-center {
   align-items: center;
 }
+.justify-content-center {
+  justify-content: center;
+}
+.btn {
+  font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.333;
+padding: 16px 30px;
+}
 
+.btn-default {
+background-color: #fff;
+box-shadow: 0px 4px 20px #0F064C;
+color: #0F064C;
+}
 .container {
   max-width: 1114px;
   padding: 0 15px;
@@ -27,8 +54,12 @@ a {
 }
 
 .header {
-  background: black;
+  /* background: black; */
   padding: 40px 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
 
 .main-header-nav {
@@ -45,4 +76,50 @@ a {
 .info-header-nav {
   color: rgba(255, 255, 255, 0.8);
   margin-left: auto;
+}
+
+.inner {
+  height: 100vh;
+  background: linear-gradient(89.79deg, #23196F 0.13%, #180D5B 99.88%);
+  padding-top: 106px;
+}
+
+.call-to-action-title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.29;
+  /* line-height = font-size/figma-line-height */
+  margin-top: 55px;
+}
+
+.inner-call-to-action {
+  max-width: 545px;
+}
+
+.call-to-action-desq {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  line-height: 1.33;
+  margin-top: 20px;
+  max-width: 383px;
+  margin-bottom: 55px;
+}
+
+.call-to-action-desq span {
+  color: #36A7B9;
+  font-weight: 700;
+}
+.test-your-email {
+  display: inline-block;
+}
+
+.email-not-required {
+margin-top: 15px;
+color: rgba(255, 255, 255, 0.8);
+font-size: 14px;
+}
+
+.email-not-required span {
+  margin-left: 15px;
 }
