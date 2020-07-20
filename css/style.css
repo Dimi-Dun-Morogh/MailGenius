@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
+  line-height: 0;
 }
+
 
 button {
   border: none;
@@ -109,7 +111,7 @@ a {
   content: '';
   width: 738px;
   height: 611px;
-  background: url('../img/inner-bg.png') no-repeat;
+  background: url('../img/inner-bg.png') ;
   position: absolute;
   top: -100px;
   right: -655px;
